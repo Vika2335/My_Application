@@ -9,17 +9,17 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="356dp"
+        android:layout_height="477dp"
         android:background="#FFB8B8"
         android:backgroundTint="#FFCFCF"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.42" />
 
     <Button
         android:id="@+id/button"
@@ -46,20 +46,20 @@
         android:id="@+id/calendarView"
         android:layout_width="202dp"
         android:layout_height="245dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="152dp"
         android:backgroundTint="#E91E63"
         android:focusedMonthDateColor="#BD2B2B"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="104dp" />
+        tools:layout_editor_absoluteX="143dp" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="428dp"
+        android:layout_height="73dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="87dp" />
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
